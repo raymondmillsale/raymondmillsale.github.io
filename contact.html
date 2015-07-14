@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Contact Us</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+</head>
+<body>
+<header>
+  <div id="tm-header-top">
+    <div class="tm-wrap tm-table">
+      <div class="tm-logo"> <a href="index.html">
+        <h1>Portable Crusher</h1>
+        </a> </div>
+      <div class="tm-search">
+        <form>
+          <input type="text" autocomplete="off" placeholder="Search..." name="s" class="tm-input">
+          <button role="button" type="submit" class="tm-button">Search</button>
+        </form>
+      </div>
+    </div>
+    <!--tm-wrap--> 
+  </div>
+  <!--tm-header-top-->
+  <div id="tm-header-nav" class="tm-menu-style1 tm-sticky-menu">
+    <nav class="navigation">
+      <ul id="menus">
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="crusher/index.html">Crusher</i></a>
+          <ul class="sub-menu">
+            <li><a href="crusher/cs-cone-crusher.html">CS Cone Crusher</a></li>
+            <li><a href="crusher/hj-jaw-crusher.html">HJ Jaw Crusher</a></li>
+            
+            <li><a href="crusher/hpt-cone-crusher.html">HPT Cone Crusher</a></li>
+            <li><a href="crusher/hst-cone-crusher.html">HST Cone Crusher</a></li>
+            <li><a href="crusher/pe-jaw-crusher.html">PE Jaw Crusher</a></li>
+            <li><a href="crusher/pew-jaw-crusher.html">PEW Jaw Crusher</a></li>
+            <li><a href="crusher/pf-impact-crusher.html">PF Impact Crusher</a></li>
+            <li><a href="crusher/pfw-impact-crusher.html">PFW Impact Crusher</a></li>
+            <li><a href="crusher/py-cone-crusher.html">PY Cone Crusher</a></li>
+            <li><a href="crusher/sand-making-machine.html">Sand Making Machine</a></li>
+          </ul>
+        </li>
+        <li> <a href="grinding-mill/index.html">Grinding Mill</a>
+          <ul class="sub-menu">
+            <li><a href="grinding-mill/ball-mill.html">Ball Mill</a></li>
+            <li><a href="grinding-mill/raymond-mill.html">Raymond Mill</a></li>
+            <li><a href="grinding-mill/scm-ultrafine-mill.html">SCM Ultrafine Mill</a></li>
+            <li><a href="grinding-mill/t130x-ultrafine-mill.html">T130x Ultrafine Mill</a></li>
+            <li><a href="grinding-mill/mtw-milling-machine.html">MTW Milling Machine</a></li>
+            <li><a href="grinding-mill/mtm-trapezium-grinder.html">MTM Trapezium Grinder</a></li>
+            <li><a href="grinding-mill/lum-vertical-roller-mill.html">LUM Vertical Roller Mill</a></li>
+            <li><a href="grinding-mill/lm-vertical-grinding-mills.html">LM Vertical Grinding Mills</a></li>
+          </ul>
+        </li>
+        <li> <a href="portable-crusher/index.html">Portable Crusher</a>
+          <ul class="sub-menu">
+            <li><a href="portable-crusher/mobile-jaw-crusher.html">Mobile Jaw Crusher</a></li>
+            <li><a href="portable-crusher/mobile-cone-crusher.html">Mobile Cone Crusher</a></li>
+            <li><a href="portable-crusher/mobile-impact-crusher.html">Mobile Impact Crusher</a></li>
+            <li><a href="portable-crusher/k-portable-crusher.html">K Portable Crusher</a></li>
+          </ul>
+        </li>
+        <li> <a href="case/index.html">Case</a></li>
+        <li> <a href="about.html">About Us</a></li>
+        <li> <a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="tm-social-icons"> <a href="http://www.facebook.com/" rel="nofollow" class="tm-icon-facebook"> <i class="fa fa-facebook"></i> </a> <a href="http://www.twitter.com/" rel="nofollow" class="tm-icon-twitter"> <i class="fa fa-twitter"></i> </a> <a href="http://www.dribbble.com/" rel="nofollow" class="tm-icon-dribbble"> <i class="fa fa-dribbble"></i> </a> </div>
+    </nav>
+  </div>
+  <!--tm-header-nav--> 
+</header>
+<div id="tm-page-title">
+  <div class="tm-wrap tm-table">
+    <div class="tm-title-captions">
+      <h1 class="tm-entry-title">Contact Us</h1>
+    </div>
+    <ul class="tm-breadcrumbs">
+      <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="index.html" itemprop="url"> <span itemprop="title">Home </span></a></li>
+      <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">Contact Us</span></li>
+    </ul>
+  </div>
+</div>
+<!--tm-page-title-->
+<div id="tm-page-body" class="contact-map">
+  <div id="tm-template-default-fullwidth" class="tm-container">
+    <div class="page-content">
+      <div class="page-content-inner tm-content">
+        <div class="tm-row">
+          <div id="map-canvas"></div>
+          <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+          <script type="text/javascript">
+		(function() {
+			window.onload = function(){
+				var pinkParksStyles = '';
+			var pinkMapType = new google.maps.StyledMapType(pinkParksStyles,
+				{name: "Our Location"});
+			var mapOptions = {
+				zoom: 8,
+				center: new google.maps.LatLng(31.266133, 121.611248),
+				mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'pink-parks']
+				}
+			};
+			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+			  map.mapTypes.set('pink-parks', pinkMapType);
+			  map.setMapTypeId('pink-parks');
+
+			
+			var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(31.266133, 121.611248),
+				map: map
+			}); 
+			}
+		})();
+	   </script> 
+        </div>
+        <div class="tm-row" style="padding:50px 0 0 0">
+          <div class="tm-wrap">
+            <div class="one-fourth">
+              <div class="header-double-line-right">
+                <h3 class="tm-title">Head office address</h3>
+              </div>
+              <div class="contact-info-container">
+                <div class="address"> No.416 Jianye Road, South Jinqiao Area, Pudong, Shanghai, China </div>
+                <div class="phone"> <strong>Phone:</strong> +86-21-58386189 </br>
+                  +86-21-58386176 </div>
+                <div class="fax"> <strong>Fax:</strong> +86-21-58386211 </div>
+                <div class="email"> <strong>Email:</strong> <a href="mailto:sbm@sbmcrushings.com"> sbm@sbmcrushings.com</a> </div>
+              </div>
+              </br>
+              </br>
+              <div class="header-double-line-right">
+                <h3 class="tm-title">India office address</h3>
+              </div>
+              <div class="contact-info-container">
+                <div class="address"> B 704 Millennium Plaza, Sushant Lok 1 </div>
+                <div class="phone"> <strong>Phone:</strong> 00919711826283</br>
+                  +911244048994 </div>
+                <div class="email"> <strong>Email:</strong> <a href="mailto:sbm@sbmcrushings.com"> sbm@sbmcrushings.com</a> </div>
+              </div>
+              </br>
+              </br>
+              <div class="header-double-line-right">
+                <h3 class="tm-title">Vietnam office address</h3>
+              </div>
+              <div class="contact-info-container">
+                <div class="address"> No.1206 ,CT14-A2 Building,Ciputra International City,Tay Ho District,Ha Noi </div>
+                <div class="phone"> <strong>Phone:</strong> 0949108988 </br>
+                </div>
+                <div class="email"> <strong>Email:</strong> <a href="mailto:sbm@sbmcrushings.com"> sbm@sbmcrushings.com</a> </div>
+              </div>
+            </div>
+            <div class="three-fourth last">
+              <div class="header-double-line-right">
+                <h3 class="tm-title">Nees Help?</h3>
+              </div>
+              <p> If you have any questions or suggestions, please contact us directly by filling out the form below to submit your question, we will contact you as soon as possible. The blank with * is required, thank you for your cooperation. </p>
+              <div class="contact-form messsage">
+                <form name="contactform" method="post" action="http://inquiry.sbmchina.com/updata.php">
+                  <p>
+                    <label for="contact-name">Name <span class="required">*</span></label>
+                    <input type="text" id="contact-name" name="data[name]" required="required">
+                  </p>
+                  <p>
+                    <label for="contact-email">Email <span class="required">*</span></label>
+                    <input type="email" id="contact-email" name="data[email]" required="required">
+                  </p>
+                  <p>
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject" name="data[subject]">
+                  </p>
+                  <p>
+                    <label for="contact-message">Message</label>
+                    <textarea name="data[message]" id="contact-message" required="required"></textarea>
+                  </p>
+                  <p class="form-submit">
+                    <button type="submit" class="tm-btn">Send Message</button>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--page-content--> 
+  </div>
+  <!--tm-template--> 
+</div>
+<!--tm-page-body-default-box--> 
+
+<!--tm-page-page-footer-->
+<footer>
+  <div class="tm-wrap tm-table">
+    <div class="copyright">
+      <p>© Copyright  <a href="portable-crusher/k-portable-crusher.html">Portable Crusher</a></p>
+    </div>
+    <div class="tm-social-icons"> <a class="tm-icon-facebook" href="#"> <i class="fa fa-facebook"></i> </a> <a class="tm-icon-twitter" href="#"> <i class="fa fa-twitter"></i> </a> <a class="tm-icon-dribbble" href="#"> <i class="fa fa-dribbble"></i> </a> </div>
+  </div>
+</footer>
+
+<!-- Go to top --> 
+<a href="#" id="tm-gotop" class="tm-visible"> <i class="fa fa-chevron-up"></i> </a> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
